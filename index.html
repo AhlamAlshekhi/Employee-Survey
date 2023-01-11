@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Employee survery</title>
+</head>
+
+<body>
+    <header>
+        <h1>Employee Interests Survey</h1>
+        <form action="mailto:random@gmail.com">
+
+        <p>
+            <label for="EnterYourName">Enter Your Name:</label>
+            <input type="text" name="YourName" id="EnterYourName" placeholder="Jo" required>
+        </p>
+        <p>
+            <label for="YourDepartment">Enter Your Department:</label>
+            <input type="text" name="YourDepartment" id="YourDepartment" placeholder="accounting">
+        </p>
+        <p>
+            <label for="TellUsaboutYourself">Tell Us about Yourself:</label>
+            <br>
+            <textarea name="tellusaboutyourself" id="TellUsaboutYourself" cols="40" rows="10" placeholder="Your Text here"></textarea>
+        </p>
+    </header>
+   
+        <p>Do you exercise at home?
+
+             <label for="Yes">Yes</label>
+             <input type="radio" name="exercise" id="Yes">
+              <label for="No">No</label>
+              <input type="radio" name="exercise" id="No">   
+    </p>
+    <p>
+        How do you like to read about your Favorite Topics?<br>
+        <label for="Books">Books</label>
+         <input type="checkbox" name="favorite" id="Books">
+         <label for="Onlineresources">Online resources</label>
+         <input type="checkbox" name="favorite" id="Onlineresources">
+         <label for=PhoneApps>Phone Apps</label>
+         <input type="checkbox" name="favorite" id="PhoneApps">
+         <label for="Magazines">Magazines</label>
+         <input type="checkbox" name="favorite" id="Magazines">
+    </p>
+    <p>
+        What genre of  Movies do You like? <select>
+            <option value="Movies">Comedy</option>
+            <option value="2">romance</option>
+            <option value="3">thriller</option>
+            <option value="4">horror</option>
+            <option value="5">biopic</option>
+        </select>
+    </p>
+
+    <button type="submit">submit</button>
+    <button type="reset">Reset</button>
+</form>   
+</body>
+</html>
